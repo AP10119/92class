@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Welcome To 2nd Page</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+        
+    </head>
+    <body class="body-background">
+        
+        <h3 id="player1name"></h3><span><h3 id="player1score"></h3></span>
+        <br>
+        <h3 id="player2name"></h3><span><h3 id="player2score"></h3></span>
+        <center>
+            <h2 style="color:red">Guess The Word</h2>
+            <h3 id="question"></h3>
+            <br>
+            <h3 id="answer"></h3>
+            <div id="output">
+                
+            </div>
+            <br>
+            <label>Send your word:<b style="color: red;">Try putting a word with 5 or more alphabets</b></label>
+            <input type="text" id="Your_word" class="form-control" placeholder="Enter Word" style="width: 300px"> 
+            <br>
+            <button onclick="send()" class="btn btn-info">Send</button>
+        </center>
+        <script src="second.js"></script>
+    </body>
+</html>

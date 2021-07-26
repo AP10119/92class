@@ -1,0 +1,60 @@
+.body-background 
+{
+    background-color: lightblue;
+    background-position: center;
+    background-size: cover;
+	text-align: center;
+}
+#div1{
+	background-color: white;
+	border-radius: 20px;
+	float: none;
+	padding: 10px;
+}
+#div2{
+	background-color: white;
+	border-radius: 20px;
+	float: none;
+	padding: 10px;
+}
+h2
+{
+	border-radius: 10px;
+	width: 200px;
+	padding: 5px;
+ }
+h3
+{
+	display: inline-block;
+}
+#input1{
+	display: inline-blocks;
+	width: 300px;
+}
+#input2{
+	display: inline-blocks;
+	width: 300px;
+}
+#player1name{
+	color: black;
+}
+#output{
+	background: white; 
+	border-radius: 10px; 
+	border-top: 10px solid #AA4465; 
+	padding: 10px; float: none; 
+	text-align: left;
+	width: 500px;
+}
+#player1score{
+	display:inline-block;
+    margin-right: 1100px;
+}
+#player2score{
+	display: inline-block;
+	margin-right: 1100px;
+}
+
+#playeranswer{
+	width:400px
+}
